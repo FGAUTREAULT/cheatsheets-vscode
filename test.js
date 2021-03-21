@@ -3,13 +3,18 @@ class Car {
     this.name = name;
     this.year = year;
 
-    const plop = 1000;
-    if (n >= plop) {
-      this.plop(item);
+    const plop = 2020;
+    if (year >= plop) {
+      this.plop(this);
     }
   }
 
   plop(item) {
-    console.log(item)
+    alert(JSON.stringify(item));
   }
 }
+
+function codeAddress() {
+  const car = new Car("Tesla", 2021);
+}
+window.onload = codeAddress;

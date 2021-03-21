@@ -1,6 +1,7 @@
 /* Emmet - Type P10 or df for short definition */
 .hello1 {
-    padding: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
+    color: #f00;
 }
